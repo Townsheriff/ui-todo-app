@@ -1,0 +1,12 @@
+query ListTodoLists {
+  listTodoLists {
+    id
+    title
+    items {
+      listId
+      id
+      content
+      checked
+    }
+  }
+}

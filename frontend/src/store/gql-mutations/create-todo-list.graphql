@@ -1,0 +1,12 @@
+mutation CreateTodoList($title: String!) {
+  createTodoList(title: $title) {
+    id
+    title
+    items {
+      listId
+      id
+      content
+      checked
+    }
+  }
+}

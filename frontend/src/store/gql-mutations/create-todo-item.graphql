@@ -1,0 +1,8 @@
+mutation CreateTodoItem($listId: ID!, $content: String!, $checked: Boolean!) {
+  createTodoItem(listId: $listId, content: $content, checked: $checked) {
+    listId
+    id
+    content
+    checked
+  }
+}

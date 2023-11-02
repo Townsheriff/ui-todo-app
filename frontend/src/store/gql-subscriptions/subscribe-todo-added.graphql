@@ -1,0 +1,8 @@
+subscription TodoAdded {
+  todoAdded {
+    listId
+    id
+    content
+    checked
+  }
+}

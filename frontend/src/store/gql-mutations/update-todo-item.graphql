@@ -1,0 +1,8 @@
+mutation UpdateTodoItem($id: ID!, $content: String!, $checked: Boolean!) {
+  updateTodoItem(id: $id, content: $content, checked: $checked) {
+    listId
+    id
+    content
+    checked
+  }
+}
